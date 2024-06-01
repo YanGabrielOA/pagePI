@@ -21,10 +21,10 @@
             <a class="nav-link" href="javascript:void(0)">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)">Cadastro</a>
+            <a class="nav-link" href="#Download">Download</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)">Quem somos?</a>
+            <a class="nav-link" href="#rodape">Quem somos?</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -48,17 +48,18 @@
       <!-- The slideshow/carousel -->
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <iframe id="video" src="https://www.youtube.com/embed/o6NO2Iqhwbo" title="App bee-lancer Services - Pitch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; repeat;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <img id="video" src="imagens/frame2.png" alt="New York" class="d-block w-100">
           <!-- <video src="https://youtu.be/o6NO2Iqhwbo" alt="pitch PI" class="d-block w-100"> -->
         </div>
         <div class="carousel-item">
-          <a href=""><img id="video" src="imagens/Telas_Figma.png" alt="Chicago" class="d-block w-100"></a>
+          <a href="#Download"><img id="video" src="imagens/group2.png" alt="Chicago" class="d-block w-100"></a>
             <div class="carousel-caption">
               <h2 id="carouselletra">Clique Aqui Para Fazer o Download</h2>
             </div>
         </div>
         <div class="carousel-item">
-          <img src="https://picsum.photos/1900/600" alt="New York" class="d-block w-100">
+          <iframe id="video" src="https://www.youtube.com/embed/o6NO2Iqhwbo" title="App bee-lancer Services - Pitch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; repeat;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          
         </div>
       </div>
     
@@ -72,33 +73,33 @@
     </div>
     <!-- FIM CARROSSEL -->
     <!-- HEROES -->
-    <div class="container col-xxl-8 px-4 py-5">
+    <div id="Download" class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          <img src="imagens/logo preta.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
         </div>
         <div class="col-lg-6">
-          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
-          <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Venha para nossa comunidade BEE</h1>
+          <p class="lead">Beelancers é o aplicativo de freelancers que se inspira na eficiência das abelhas. Conecte-se com talentos ou ofereça seus serviços em diversas áreas. Destaque suas habilidades em um perfil personalizado, aproveite a comunicação integrada e pagamentos seguros. Junte-se à colmeia Beelancers para oportunidades de trabalho e colaboração.</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+            <button type="button" class="btn  btn-lg me-md-0.02"><img id="loja" src="imagens/Appstore.png"></button>
+            <button type="button" class="btn  btn-lg "><img id="loja" src="imagens/playstore.png"></button>
           </div>
         </div>
       </div>
     </div>
     <!-- FIM -->
     <!-- INICIO RODAPE -->
-    <div class="container">
+    <div id="rodape" class="container-fuid bg-dark">
       <footer class="py-3 my-4" id="textob">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary ">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+          <li class="nav-item"><a href="#"class="nav-link px-2 text-body-secondary "><p id="ftext">Home</p></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><p id="ftext">Features</p></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><p id="ftext">Pricing</p></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><p id="ftext">FAQs</p></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><p id="ftext">About</p></a></li>
         </ul>
-        <p class="text-center text-body-secondary">&copy; 2024 Company, Inc</p>
+        <p id="ftext" class="text-center text-body-secondary bg-dark text-light"><img id="logof" src="imagens/logo_invertida_alpha.png"></p>
       </footer>
     </div>
     <!-- FIM RODAPE -->
